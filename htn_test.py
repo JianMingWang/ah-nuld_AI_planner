@@ -116,11 +116,11 @@ decays.
 
 print("""
 ********************************************************************************
-Inputs
+Overview
 ********************************************************************************
 """)
 
-line_length = int(input("enter integer for line length: ")) 
+line_length = int(input("enter int for line length: ")) 
 robot_battery_power = int(input("enter int for Ah-nuld battery power: "))
 robot_battery_decay_rate = int(input("enter int for Ah-nuld battery decay rate: "))
 
