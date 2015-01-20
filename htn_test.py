@@ -140,7 +140,7 @@ Call pyhop.pyhop(state1,[('get_autograph,'ah_nuld','no_autograph','book_signed')
 """)
 
 print("- If verbose=0 (the default), Pyhop returns the solution but prints nothing.\n")
-pyhop.pyhop(state1,[('get_autogragh','ah_nuld','no_autograph','book_signed')])
+pyhop.pyhop(state1,[('get_autograph','ah_nuld','no_autograph','book_signed')])
 
 print('- If verbose=1, Pyhop prints the problem and solution, and returns the solution:')
 pyhop.pyhop(state1,[('get_autograph','ah_nuld','no_autograph','book_signed')],verbose=1)
